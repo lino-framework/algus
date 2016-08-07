@@ -17,16 +17,16 @@ SETUP_INFO = dict(
 
 SETUP_INFO.update(long_description="""
 
-A project which you can use as template for writing your own Lino
-application.
+A project which you can use as template for writing your own `Lino
+<http://www.lino-framework.org/>`_ application.
 
 Basic use is as follows:
 
 - Find a short one-word name for your application, for example "Lino
   Example".
 
-- Fork this repository (to a repository owned by you and named
-  example) and then clone your fork to get a local working copy.  
+- Fork this repository (to a repository named "example" and owned by
+  you) and then clone your fork to get a local working copy.
 
 - In your working copy:
 
@@ -43,8 +43,6 @@ Basic use is as follows:
 Note: "algus" is the Estonian word for "start". We did not name this
 template "Lino Start" because the word "start" is more likely to occur
 in variable names or text which is not related to the projet name.
-
-TODO: write more.
 
 """)
 
