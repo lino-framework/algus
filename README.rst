@@ -16,4 +16,4 @@ TODO: write more.
 
 
 
-Read more on http://algus.example.com
+Read more on http://algus.lino-framework.org/
