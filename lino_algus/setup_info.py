@@ -61,7 +61,7 @@ Intended Audience :: Customer Service
 License :: OSI Approved :: {license}
 Operating System :: OS Independent
 Topic :: Software Development :: Bug Tracking
-""".format(**SETUP_INFO).splitlines())
+""".format(**SETUP_INFO).strip().splitlines())
 SETUP_INFO.update(packages=[
     'lino_algus',
     'lino_algus.lib',
