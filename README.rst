@@ -1,11 +1,8 @@
 ==========================
-lino-algus README
+The ``lino-algus`` package
 ==========================
 
-A template for new Lino applications
 
-Description
------------
 
 
 
@@ -37,5 +34,3 @@ template "Lino Start" because the word "start" is more likely to occur
 in variable names or text which is not related to the projet name.
 
 
-
-Read more on http://algus.lino-framework.org/
