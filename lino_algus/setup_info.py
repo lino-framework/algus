@@ -5,7 +5,7 @@
 SETUP_INFO = dict(
     name='lino-algus',
     version='0.0.1',
-    install_requires=['lino_xl'],
+    install_requires=['lino-xl'],
     description=("A template for new Lino applications"),
     author='Luc Saffre',
     author_email='luc@lino-framework.org',
