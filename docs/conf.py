@@ -45,7 +45,7 @@ copyright = u'2016, Luc Saffre'
 # The full version, including alpha/beta/rc tags.
 import lino_algus
 # release = settings.SITE.version
-release = lino_algus.__version__
+release = lino_algus.__version__ or ''
 
 # The short X.Y version.
 version = '.'.join(release.split('.')[:2])
