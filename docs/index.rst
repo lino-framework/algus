@@ -12,6 +12,11 @@ Welcome to the **Lino Algus** project homepage.
   print(SETUP_INFO['long_description'])
 
 
+.. note:: The following content, if you happen to see it, is not
+          meaningful. Remove this note from your copy of
+          :file:`docs/index.rst`.
+
+
 Content
 ========
 

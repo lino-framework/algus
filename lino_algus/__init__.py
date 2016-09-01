@@ -13,10 +13,9 @@
 
 """
 
-import os
-
-filename = os.path.join(os.path.dirname(__file__), 'setup_info.py')
-exec(compile(open(filename, "rb").read(), filename, 'exec'))
+from past.builtins import execfile
+from os.path import join, dirname
+execfile(join(dirname(__file__), 'setup_info.py'))
 
 __version__ = SETUP_INFO.get('version')
 
