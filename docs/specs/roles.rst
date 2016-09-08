@@ -32,7 +32,7 @@ users.UserProfiles.admin:900
 - Configure :
   - System : Site Parameters, Users
 - Explorer :
-  - System : Authorities, User Profiles
+  - System : Authorities, User types
 - Site : About
 
 
