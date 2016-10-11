@@ -28,7 +28,7 @@ class Site(Site):
     version = '0.0.1'
     url = "http://algus.lino-framework.org/"
     demo_fixtures = ['std', 'demo', 'demo2']
-    user_profiles_module = 'lino_algus.lib.algus.roles'
+    user_types_module = 'lino_algus.lib.algus.roles'
     migration_class = 'lino_algus.lib.algus.migrate.Migrator'
 
     def get_installed_apps(self):

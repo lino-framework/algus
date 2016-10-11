@@ -37,11 +37,11 @@ class SimpleTests(RemoteAuthTestCase):
 
     def test01(self):
         User = rt.models.users.User
-        UserProfiles = rt.models.users.UserProfiles
+        UserTypes = rt.models.users.UserTypes
         Product = rt.models.lets.Product
         
         robin = create(User, username='robin',
-                       profile=UserProfiles.admin,
+                       profile=UserTypes.admin,
                        language="en")
 
         foo = create(Product, name='Foo')
