@@ -10,6 +10,7 @@ Lino Algus extension of :mod:`lino.modlib.users`.
    :toctree:
 
     models
+    desktop
     fixtures.demo
     fixtures.demo2
 
