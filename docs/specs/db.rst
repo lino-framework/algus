@@ -31,6 +31,6 @@ This document describes the database structure.
  system.SiteConfig           system.SiteConfigs           3         0
  tinymce.TextFieldTemplate   tinymce.TextFieldTemplates   5         2
  users.Authority             users.Authorities            3         0
- users.User                  users.Users                  14        11
+ users.User                  users.Users                  15        11
 =========================== ============================ ========= =======
 <BLANKLINE>
