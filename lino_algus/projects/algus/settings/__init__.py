@@ -45,9 +45,6 @@ class Site(Site):
         yield 'lino_xl.lib.appypod'
 
 
-    def get_admin_main_items(self, user):
-        yield self.actors.lets.ActiveProducts
-
     def setup_quicklinks(self, ar, tb):
         super(Site, self).setup_quicklinks(ar, tb)
         tb.add_action('lets.Products')
