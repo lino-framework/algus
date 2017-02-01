@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright 2016 Luc Saffre
+# Copyright 2016-2017 Luc Saffre
 # License: BSD (see file COPYING for details)
 
 """
@@ -10,7 +10,7 @@ The main plugin for Lino Algus.
 
     models
     migrate
-    roles
+    user_types
 
 """
 
