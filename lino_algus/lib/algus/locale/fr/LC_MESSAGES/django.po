@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lino-noi 0.0.2\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-02-10 19:45+0200\n"
+"POT-Creation-Date: 2017-04-01 11:44+0300\n"
 "PO-Revision-Date: 2015-11-30 22:41+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -103,6 +103,7 @@ msgstr ""
 #~ msgid "Only project interesting for this site."
 #~ msgstr ""
 
+#~ msgctxt "Ticketing"
 #~ msgid "Sites"
 #~ msgstr ""
 
@@ -151,6 +152,7 @@ msgstr ""
 #~ msgid "Sessions"
 #~ msgstr ""
 
+#~ msgctxt "Ticket"
 #~ msgid "Summary"
 #~ msgstr ""
 
@@ -184,6 +186,7 @@ msgstr ""
 #~ msgid "Time"
 #~ msgstr ""
 
+#~ msgctxt "Ticketing"
 #~ msgid "Site"
 #~ msgstr ""
 
@@ -209,9 +212,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "How much workers enjoy to get a"
-#~ " new ticket in this faculty.A number"
-#~ " between -{0} and +{0}."
 #~ msgstr ""
 
 #~ msgid "Options category"
@@ -227,12 +227,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Competences"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "How much this user likes to get"
-#~ " a new ticket in this faculty.A "
-#~ "number between -{0} and +{0}."
 #~ msgstr ""
 
 #~ msgid "Option"
@@ -253,26 +247,10 @@ msgstr ""
 #~ msgid "The possible values of a lino_noi.lib.tickets.models.Link."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "A competence is when a given user is declared to be competent\n"
-#~ "in a given faculty."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Whether this investment is closed, i.e. certain things should\n"
-#~ "not change anymore."
-#~ msgstr ""
-
 #~ msgid "Special state for permanent tickets which have no lifecycle."
 #~ msgstr ""
 
 #~ msgid "The parent ticket requires the child ticket."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The faculty that has been used during this session. On a new\n"
-#~ "session this defaults to the needed faculty currently specified\n"
-#~ "on the ticket."
 #~ msgstr ""
 
 #~ msgid "The time (in hours) we plan to work on this project or ticket."
@@ -281,29 +259,7 @@ msgstr ""
 #~ msgid "A Session is when a user works on a given ticket."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The ticket is basically done. If it is not also marked as\n"
-#~ "closed, then something else still needs to be done\n"
-#~ "(e.g. testing, confirmation, documentation,..)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A faculty is a \"knowledge\" or \"competence\" which can be\n"
-#~ "required in order to work on some ticket, and which users can have\n"
-#~ "or not."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An end user is somebody who uses our software and may report\n"
-#~ "tickets, but won't work on them."
-#~ msgstr ""
-
 #~ msgid "Defines and instantiates a demo version of Lino Noi."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "For users whose user_site is set, show the known problems on\n"
-#~ "their site."
 #~ msgstr ""
 
 #~ msgid "A user who is responsible for triaging new tickets."
@@ -327,39 +283,13 @@ msgstr ""
 #~ msgid "The user who is reported this ticket."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Whether this investment is private, i.e. should not be\n"
-#~ "publicly visible anywhere."
-#~ msgstr ""
-
 #~ msgid "Global list of all tickets."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Model mixin for things which represent a time investment.  This\n"
-#~ "currently just defines a group of three fields:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "An unformatted one-line text which describes what this ticket\n"
-#~ "is waiting for."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Select only tickets for which there has been at least one session\n"
-#~ "during the given period."
 #~ msgstr ""
 
 #~ msgid "Defines and instantiates a demo version of Lino Care."
 #~ msgstr ""
 
 #~ msgid "The type of a Project."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The ticket needs discussion with the reporter.\n"
-#~ "We don't yet know exactly\n"
-#~ "what to do with it."
 #~ msgstr ""
 
 #~ msgid "The parent ticket is a deployment which deploys the child ticket."
@@ -374,50 +304,16 @@ msgstr ""
 #~ msgid "A project is something on which several users work together."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "A senior developer is a developer who is additionally\n"
-#~ "responsible for triaging tickets"
-#~ msgstr ""
-
 #~ msgid "The type of a Ticket."
 #~ msgstr ""
 
 #~ msgid "The \"Sessions\" panel in the detail of a ticket."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "A service report is a document used in various discussions with\n"
-#~ "a stakeholder."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A developer is somebody who may both report tickets and work\n"
-#~ "on them."
-#~ msgstr ""
-
 #~ msgid "The milestone (and site) of this deployment."
 #~ msgstr ""
 
 #~ msgid "A pointer to the ticket which is the cause of this ticket."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "This can be empty and will then show the working time of all\n"
-#~ "users."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A Ticket is a concrete question or problem formulated by a\n"
-#~ "reporter (a user)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The ticket is theoretically done, but we want to confirm this\n"
-#~ "somehow, and it is not clear who (reporter, assignee or even\n"
-#~ "some third user) should do the next step. If it is clear that\n"
-#~ "the reporter should do the testing, then you should rather set\n"
-#~ "the ticket to talk. If it is clear that you (the\n"
-#~ "assignee) must test it, then leave the ticket at todo."
 #~ msgstr ""
 
 #~ msgid "Like a developer, plus site admin and staff"
@@ -429,107 +325,31 @@ msgstr ""
 #~ msgid "alias of Ticket"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Select only projects for which there has been at least one session\n"
-#~ "during the given period."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A deployment is the fact that a given ticket is being fixed (or\n"
-#~ "installed or activated) by a given milestone (to a given site)."
-#~ msgstr ""
-
 #~ msgid "The state of a ticket (new, open, closed, ...)"
 #~ msgstr ""
 
 #~ msgid "alias of Milestone"
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Somebody reported this ticket, but there was no response so\n"
-#~ "far.\n"
-#~ "The ticket needs to be triaged."
-#~ msgstr ""
-
 #~ msgid "The user who is working on this ticket."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A formatted text field meant for writing instructions for the\n"
-#~ "hoster's site administrator when doing an upgrade where this\n"
-#~ "ticket is being deployed."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Shows a list of tickets \"to do\". This means attributed to me and\n"
-#~ "state \"confirmed\"."
 #~ msgstr ""
 
 #~ msgid "Closed milestones are hidden in most lists."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "Waiting for some external event. We didn't decide what to do\n"
-#~ "with it."
-#~ msgstr ""
-
 #~ msgid "The type of a Session."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The user to whom new tickets will be assigned.\n"
-#~ "See Ticket.assigned_to."
 #~ msgstr ""
 
 #~ msgid "Layout of User Detail in Lino Welfare."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "The ticket is confirmed and we are working on it.\n"
-#~ "It appears in the todo list of somebody (either the assigned\n"
-#~ "worker, or our general todo list)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The time (in hh:mm) to remove from the duration resulting\n"
-#~ "from the difference between start_time and\n"
-#~ "end_time."
-#~ msgstr ""
-
 #~ msgid "Show a list of active projects."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "List of tickets that need to be triaged.  Currently this is\n"
-#~ "equivalent to those having their state set to new."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Shows the tickets which are marked as duplicates of this\n"
-#~ "(i.e. whose duplicate_of field points to this ticket."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A complete and concise description of the ticket. This should\n"
-#~ "describe in more detail what this ticket is about. If the\n"
-#~ "ticket has evolved during time, it should reflect the latest\n"
-#~ "version."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "A consultant is somebody who may both report tickets and work\n"
-#~ "on them."
 #~ msgstr ""
 
 #~ msgid "To close a session means to stop working on that ticket for this time."
 #~ msgstr ""
 
 #~ msgid "It has been decided that we won't fix this ticket."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Customized detail_lyout for Tickets.  Replaces waiting_for by\n"
-#~ "faculties"
 #~ msgstr ""
 
 #~ msgid "Consultant"
@@ -652,14 +472,6 @@ msgstr ""
 #~ msgid "Activity overview"
 #~ msgstr ""
 
-#~ msgctxt "Ticketing"
-#~ msgid "Site"
-#~ msgstr ""
-
-#~ msgctxt "Ticketing"
-#~ msgid "Sites"
-#~ msgstr ""
-
 #~ msgid "Designation"
 #~ msgstr ""
 
@@ -721,10 +533,6 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Nickname"
-#~ msgstr ""
-
-#~ msgctxt "Ticket"
-#~ msgid "Summary"
 #~ msgstr ""
 
 #~ msgid "Short summary of the problem."
