@@ -7,7 +7,7 @@
 
 
 from lino.core.roles import UserRole, SiteAdmin, SiteUser, SiteStaff
-from lino.modlib.users.choicelists import UserTypes
+from lino.modlib.auth.choicelists import UserTypes
 from django.utils.translation import ugettext_lazy as _
 
 UserTypes.clear()

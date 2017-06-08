@@ -8,7 +8,7 @@
 
 from lino.api import dd, _
 
-from lino.modlib.users.desktop import *
+from lino.modlib.auth.desktop import *
 
 class UserDetail(UserDetail):
     """Layout of User Detail in Lino Algus."""
@@ -17,7 +17,7 @@ class UserDetail(UserDetail):
 
     general = dd.Panel("""
     box1
-    remarks:40 users.AuthoritiesGiven:20
+    remarks:40 auth.AuthoritiesGiven:20
     """, label=_("General"))
 
     box1 = """

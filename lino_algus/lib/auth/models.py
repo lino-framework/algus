@@ -8,13 +8,13 @@
 
 from lino.api import dd, _
 
-from lino.modlib.users.models import *
+from lino.modlib.auth.models import *
 
 
 class User(User):
 
     class Meta(User.Meta):
-        app_label = 'users'
+        app_label = 'auth'
         abstract = dd.is_abstract_model(__name__, 'User')
 
     place = models.ForeignKey('lets.Place', blank=True, null=True)

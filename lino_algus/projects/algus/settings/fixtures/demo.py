@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright 2016 Luc Saffre
+# Copyright 2016-2017 Luc Saffre
 # License: BSD (see file COPYING for details)
 """General demo data for Lino Algus.
 
@@ -22,7 +22,7 @@ def objects():
 
     """
     Place = rt.models.lets.Place
-    User = rt.models.users.User
+    User = rt.models.auth.User
     Product = rt.models.lets.Product
 
     def offer(what, who):
@@ -36,8 +36,8 @@ def objects():
             customer=User.objects.get(first_name=who))
 
     def member(name, place, email=''):
-        return rt.modules.users.User(
-            first_name=name, email=email,
+        return User(
+            username=name, first_name=name, email=email,
             place=findbyname(Place, place))
 
     yield Place(name="Tallinn")

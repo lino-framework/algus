@@ -5,5 +5,5 @@ from django.utils.translation import ugettext_lazy as _
 help_texts = {
     'lino_algus.lib.algus.migrate.Migrator' : _("""The standard migrator for Lino Algus."""),
     'lino_algus.lib.lets.Plugin' : _("""See lino.core.plugin.Plugin."""),
-    'lino_algus.lib.users.desktop.UserDetail' : _("""Layout of User Detail in Lino Algus."""),
+    'lino_algus.lib.auth.desktop.UserDetail' : _("""Layout of User Detail in Lino Algus."""),
 }

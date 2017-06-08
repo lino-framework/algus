@@ -17,10 +17,10 @@ class Place(BabelNamed):
 class Product(BabelNamed):
 
     providers = models.ManyToManyField(
-        'users.User', verbose_name="Offered by",
+        'auth.User', verbose_name="Offered by",
         through='lets.Offer', related_name='offered_products')
     customers = models.ManyToManyField(
-        'users.User', verbose_name="Wanted by",
+        'auth.User', verbose_name="Wanted by",
         through='lets.Demand', related_name='wanted_products')
 
     @dd.displayfield("Offered by")
@@ -38,7 +38,7 @@ class Product(BabelNamed):
 
 @dd.python_2_unicode_compatible
 class Offer(dd.Model):
-    provider = models.ForeignKey('users.User')
+    provider = models.ForeignKey('auth.User')
     product = models.ForeignKey(Product)
     valid_until = models.DateField(blank=True, null=True)
 
@@ -48,7 +48,7 @@ class Offer(dd.Model):
 
 @dd.python_2_unicode_compatible
 class Demand(dd.Model):
-    customer = models.ForeignKey('users.User')
+    customer = models.ForeignKey('auth.User')
     product = models.ForeignKey(Product)
 
     def __str__(self):

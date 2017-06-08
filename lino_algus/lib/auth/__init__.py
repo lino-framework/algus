@@ -4,7 +4,7 @@
 
 
 """
-Lino Algus extension of :mod:`lino.modlib.users`.
+Lino Algus extension of :mod:`lino.modlib.auth`.
 
 .. autosummary::
    :toctree:
@@ -16,7 +16,7 @@ Lino Algus extension of :mod:`lino.modlib.users`.
 
 """
 
-from lino.modlib.users import Plugin
+from lino.modlib.auth import Plugin
 
 
 class Plugin(Plugin):

@@ -36,8 +36,8 @@ class SimpleTests(RemoteAuthTestCase):
     maxDiff = None
 
     def test01(self):
-        User = rt.models.users.User
-        UserTypes = rt.models.users.UserTypes
+        User = rt.models.auth.User
+        UserTypes = rt.models.auth.UserTypes
         Product = rt.models.lets.Product
         
         robin = create(User, username='robin',
