@@ -26,7 +26,7 @@ Lino Noi uses both :mod:`lino_noi.lib.tickets` (Ticket management) and
 
 Show the list of members:    
 
->>> rt.show(rt.actors.users.Users)
+>>> rt.show(rt.actors.auth.Users)
 ... #doctest: +NORMALIZE_WHITESPACE -REPORT_UDIFF
 ============ ===================== ========== =========================== =====================
  First name   e-mail address        place      offered_products            wanted_products

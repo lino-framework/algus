@@ -9,6 +9,6 @@
 
     algus
     lets
-    users
+    auth
 
 """
