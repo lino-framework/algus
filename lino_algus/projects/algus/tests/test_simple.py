@@ -41,7 +41,7 @@ class SimpleTests(RemoteAuthTestCase):
         Product = rt.models.lets.Product
         
         robin = create(User, username='robin',
-                       profile=UserTypes.admin,
+                       user_type=UserTypes.admin,
                        language="en")
 
         foo = create(Product, name='Foo')
