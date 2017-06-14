@@ -22,7 +22,7 @@ def objects():
 
     """
     Place = rt.models.lets.Place
-    User = rt.models.auth.User
+    User = rt.models.users.User
     Product = rt.models.lets.Product
 
     def offer(what, who):

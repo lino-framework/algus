@@ -36,7 +36,7 @@ class Site(Site):
 
         """
         yield super(Site, self).get_installed_apps()
-        yield 'lino_algus.lib.auth'
+        yield 'lino_algus.lib.users'
         yield 'lino_algus.lib.lets'
         yield 'lino_algus.lib.algus'
         yield 'lino.modlib.export_excel'

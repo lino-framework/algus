@@ -26,19 +26,19 @@ Lino Noi uses both :mod:`lino_noi.lib.tickets` (Ticket management) and
 
 Show the list of members:    
 
->>> rt.show(rt.actors.auth.Users)
+>>> rt.show(rt.actors.users.Users)
 ... #doctest: +NORMALIZE_WHITESPACE -REPORT_UDIFF
 ============ ===================== ========== =========================== =====================
  First name   e-mail address        place      offered_products            wanted_products
 ------------ --------------------- ---------- --------------------------- ---------------------
- Fred         fred@example.com      Tallinn    *Bread*, *Buckwheat*
- Argo         argo@example.com      Haapsalu   *Electricity repair work*
- Peter        peter@example.com     Vigala
  Anne         anne@example.com      Tallinn    *Buckwheat*
- Jaanika      jaanika@example.com   Tallinn
+ Argo         argo@example.com      Haapsalu   *Electricity repair work*
+ Fred         fred@example.com      Tallinn    *Bread*, *Buckwheat*
  Henri        henri@example.com     Tallinn    *Electricity repair work*   *Buckwheat*, *Eggs*
- Mari         mari@example.com      Tartu                                  *Eggs*
+ Jaanika      jaanika@example.com   Tallinn
  Katrin       katrin@example.com    Vigala
+ Mari         mari@example.com      Tartu                                  *Eggs*
+ Peter        peter@example.com     Vigala
  Robin        demo@example.com
  Rolf         demo@example.com
  Romain       demo@example.com
