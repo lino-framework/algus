@@ -25,5 +25,5 @@ class Plugin(ad.Plugin):
         m.add_action('lets.Demands')
 
     def get_dashboard_items(self, user):
-        yield self.site.actors.lets.ActiveProducts
+        yield self.site.models.lets.ActiveProducts
 
