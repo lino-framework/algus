@@ -1,4 +1,4 @@
-from lino.invlib.ns import ns
+from atelier.invlib.ns import ns
 ns.setup_from_tasks(
     globals(), "lino_algus",
     languages="en de fr".split(),
@@ -6,6 +6,6 @@ ns.setup_from_tasks(
     locale_dir='lino_algus/lib/algus/locale',
     revision_control_system='git',
     cleanable_files=['docs/api/lino_algus.*'],
-    demo_projects=['lino_algus.projects.algus.settings.demo'])
+    demo_projects=['lino_algus/projects/algus'])
 
 
