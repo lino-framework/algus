@@ -19,7 +19,7 @@ This document describes the database structure.
 >>> from lino.utils.diag import analyzer
 >>> print(analyzer.show_db_overview())
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
-17 apps: lino_startup, staticfiles, about, jinja, bootstrap3, extjs, printing, system, users, lets, algus, export_excel, office, tinymce, weasyprint, appypod, sessions.
+17 apps: lino, staticfiles, about, jinja, bootstrap3, extjs, printing, system, users, lets, algus, export_excel, office, tinymce, weasyprint, appypod, sessions.
 9 models:
 =========================== ============================ ========= =======
  Name                        Default table                #fields   #rows
