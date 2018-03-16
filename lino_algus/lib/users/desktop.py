@@ -22,7 +22,7 @@ class UserDetail(UserDetail):
 
     box1 = """
     username user_type:20
-    language timezone
+    language time_zone
     id created modified
     """
 
