@@ -23,4 +23,5 @@ __version__ = SETUP_INFO.get('version')
 
 intersphinx_urls = dict(docs="http://algus.lino-framework.org")
 srcref_url = 'https://github.com/lino-framework/algus/blob/master/%s'
+doc_trees = ['docs']
 
