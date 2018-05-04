@@ -16,6 +16,6 @@ class User(User):
     class Meta(User.Meta):
         abstract = dd.is_abstract_model(__name__, 'User')
 
-    place = models.ForeignKey('lets.Place', blank=True, null=True)
+    place = dd.ForeignKey('lets.Place', blank=True, null=True)
 
 
