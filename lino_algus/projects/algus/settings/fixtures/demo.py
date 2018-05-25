@@ -26,12 +26,12 @@ def objects():
     Product = rt.models.lets.Product
 
     def offer(what, who):
-        return rt.modules.lets.Offer(
+        return rt.models.lets.Offer(
             product=findbyname(Product, what),
             provider=User.objects.get(first_name=who))
 
     def demand(what, who):
-        return rt.modules.lets.Demand(
+        return rt.models.lets.Demand(
             product=findbyname(Product, what),
             customer=User.objects.get(first_name=who))
 

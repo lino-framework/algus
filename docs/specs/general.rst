@@ -26,7 +26,7 @@ Lino Noi uses both :mod:`lino_noi.lib.tickets` (Ticket management) and
 
 Show the list of members:    
 
->>> rt.show(rt.actors.users.Users)
+>>> rt.show(rt.models.users.Users)
 ... #doctest: +NORMALIZE_WHITESPACE -REPORT_UDIFF
 ============ ===================== ========== =========================== =====================
  First name   e-mail address        place      offered_products            wanted_products
@@ -47,7 +47,7 @@ Show the list of members:
 
 The `Products` table shows all products in alphabetical order:
 
->>> rt.show(rt.actors.lets.Products)
+>>> rt.show(rt.models.lets.Products)
 ... #doctest: +NORMALIZE_WHITESPACE -REPORT_UDIFF
 ==== ========================= ================== ================== ================= =================
  ID   Designation               Designation (de)   Designation (fr)   Offered by        Wanted by
@@ -64,7 +64,7 @@ The `Products` table shows all products in alphabetical order:
 
 The `Offers` table show all offers.
 
->>> rt.show(rt.actors.lets.Offers)
+>>> rt.show(rt.models.lets.Offers)
 ... #doctest: +NORMALIZE_WHITESPACE +REPORT_UDIFF
 ==== ======= ========================= =============
  ID   User    product                   valid until
@@ -85,7 +85,7 @@ which there is at least one offer or one demand.  It also specifies
 `column_names` to show the two virtual fields `offered_by` and
 `wanted_by`.
 
->>> rt.show(rt.actors.lets.ActiveProducts)
+>>> rt.show(rt.models.lets.ActiveProducts)
 ... #doctest: +NORMALIZE_WHITESPACE +REPORT_UDIFF
 ========================= ================== ================== ================= =================
  Designation               Designation (de)   Designation (fr)   Offered by        Wanted by
