@@ -1,18 +1,13 @@
+.. doctest docs/specs/roles.rst 
 .. _algus.specs.roles:
 
 ========================
 User roles in Lino Algus
 ========================
 
-.. To run only this test::
-
-    $ python setup.py test -s tests.SpecsTests.test_roles
-
-    doctest init:
-
-    >>> import lino
-    >>> lino.startup('lino_algus.projects.algus.settings.doctests')
-    >>> from lino.api.doctest import *
+>>> import lino
+>>> lino.startup('lino_algus.projects.algus.settings.doctests')
+>>> from lino.api.doctest import *
 
 Menus
 -----
@@ -32,7 +27,7 @@ users.UserTypes.admin:900
 - Configure :
   - System : Site Parameters, Users
 - Explorer :
-  - System : Authorities, User types
+  - System : Authorities, User types, User roles
 - Site : About
 
 
