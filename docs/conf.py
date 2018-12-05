@@ -25,11 +25,15 @@ from django.conf import settings
 # settings.SITE.title = "Lino Algus"
 
 intersphinx_mapping = {}
-from importlib import import_module
-for n in 'atelier lino lino_xl'.split():
-    m = import_module(n)
-    n = n.replace('_', "")
-    intersphinx_mapping[n] = (m.intersphinx_urls['docs'], None)
+from atelier.sphinxconf import interproject
+interproject.configure(
+    globals(), 'atelier etgen lino_book lino_algus')
+
+# from importlib import import_module
+# for n in 'atelier lino lino_xl lino_book'.split():
+#     m = import_module(n)
+#     n = n.replace('_', "")
+#     intersphinx_mapping[n] = (m.intersphinx_urls['docs'], None)
 
 # General configuration
 # ---------------------
