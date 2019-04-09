@@ -25,7 +25,7 @@ users.UserTypes.admin:900
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
 - Local Exchange : offers, demands
 - Configure :
-  - System : Site Parameters, Users
+  - System : Users, Site Parameters
 - Explorer :
   - System : Authorities, User types, User roles
 - Site : About
