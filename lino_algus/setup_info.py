@@ -10,8 +10,7 @@ SETUP_INFO = dict(
     author='Luc Saffre',
     author_email='luc@lino-framework.org',
     url="http://algus.lino-framework.org/",
-    # license='GNU Affero General Public License v3',
-    license='BSD License',
+    license='BSD-2-Clause',
     test_suite='tests')
 
 
@@ -54,7 +53,7 @@ Intended Audience :: Developers
 Intended Audience :: System Administrators
 Intended Audience :: Information Technology
 Intended Audience :: Customer Service
-License :: OSI Approved :: {license}
+License :: OSI Approved :: BSD License
 Operating System :: OS Independent
 Topic :: Software Development :: Bug Tracking
 """.format(**SETUP_INFO).strip().splitlines())
