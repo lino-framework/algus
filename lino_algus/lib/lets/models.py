@@ -36,7 +36,6 @@ class Product(BabelNamed):
         return qs2summary(ar, self.customers.all())
 
 
-@dd.python_2_unicode_compatible
 class Offer(dd.Model):
     provider = dd.ForeignKey('users.User')
     product = dd.ForeignKey(Product)
@@ -46,12 +45,10 @@ class Offer(dd.Model):
         return "%s offered by %s" % (self.product, self.provider)
 
 
-@dd.python_2_unicode_compatible
+
 class Demand(dd.Model):
     customer = dd.ForeignKey('users.User')
     product = dd.ForeignKey(Product)
 
     def __str__(self):
         return "%s (%s)" % (self.product, self.customer)
-
-
