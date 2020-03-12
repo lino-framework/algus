@@ -1,20 +1,22 @@
+.. doctest docs/specs/db.rst
 .. _algus.specs.db:
 
 ================================
 Database structure of Lino Algus
 ================================
 
-.. To run only this test::
-
-    $ python setup.py test -s tests.SpecsTests.test_db
-
-    doctest init:
-
-    >>> import lino
-    >>> lino.startup('lino_algus.projects.algus.settings.doctests')
-    >>> from lino.api.doctest import *
-
 This document describes the database structure.
+
+.. contents::
+  :local:
+
+
+.. include:: /../docs/shared/include/tested.rst
+
+>>> import lino
+>>> lino.startup('lino_algus.projects.algus.settings.doctests')
+>>> from lino.api.doctest import *
+
 
 >>> from lino.utils.diag import analyzer
 >>> print(analyzer.show_db_overview())
@@ -32,6 +34,6 @@ This document describes the database structure.
  system.SiteConfig           system.SiteConfigs           3         0
  tinymce.TextFieldTemplate   tinymce.TextFieldTemplates   5         2
  users.Authority             users.Authorities            3         0
- users.User                  users.Users                  17        11
+ users.User                  users.AllUsers               17        11
 =========================== ============================ ========= =======
 <BLANKLINE>

@@ -4,29 +4,22 @@
 General overview of Lino Algus
 ==============================
 
-The goal of Lino Algus is 
-
-.. How to test just this document:
-
-    $ python setup.py test -s tests.SpecsTests.test_general
-    
-    doctest init:
-
-    >>> import lino
-    >>> lino.startup('lino_algus.projects.algus.settings.doctests')
-    >>> from lino.api.doctest import *
-
-
-Lino Noi uses both :mod:`lino_noi.lib.tickets` (Ticket management) and
-:mod:`lino_noi.lib.clocking` (Worktime tracking).
-
+The goal of Lino Algus is
 
 .. contents::
   :local:
 
-Show the list of members:    
 
->>> rt.show(rt.models.users.Users)
+.. include:: /../docs/shared/include/tested.rst
+
+>>> import lino
+>>> lino.startup('lino_algus.projects.algus.settings.doctests')
+>>> from lino.api.doctest import *
+
+
+Show the list of members:
+
+>>> rt.show(rt.models.users.AllUsers)
 ... #doctest: +NORMALIZE_WHITESPACE -REPORT_UDIFF
 ============ ===================== ========== =========================== =====================
  First name   e-mail address        place      offered_products            wanted_products

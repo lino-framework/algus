@@ -40,7 +40,7 @@ interproject.configure(
 
 # General information about the project.
 project = "Lino Algus"
-copyright = '2016-2018 Rumma & Ko Ltd'
+copyright = '2016-2020 Rumma & Ko Ltd'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -71,8 +71,8 @@ language = 'en'
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
 exclude_patterns = [
-    '.build/*', 
-    'include/*',
+    '.build/*',
+    '*/include/*',
 ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
@@ -154,4 +154,3 @@ html_use_opensearch = ''
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'algus'
-
