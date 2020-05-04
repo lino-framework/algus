@@ -1,4 +1,4 @@
-.. doctest docs/specs/roles.rst 
+.. doctest docs/specs/roles.rst
 .. _algus.specs.roles:
 
 ========================
@@ -17,9 +17,9 @@ System administrator
 
 Rolf is a system administrator, he has a complete menu.
 
->>> ses = rt.login('robin') 
+>>> ses = rt.login('robin')
 >>> ses.user.user_type
-users.UserTypes.admin:900
+<users.UserTypes.admin:900>
 
 >>> ses.show_menu()
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
@@ -29,5 +29,3 @@ users.UserTypes.admin:900
 - Explorer :
   - System : Authorities, User types, User roles
 - Site : About
-
-
