@@ -45,7 +45,7 @@ in variable names or text which is not related to the projet name.
 
 SETUP_INFO.update(classifiers="""
 Programming Language :: Python
-Programming Language :: Python :: 2
+Programming Language :: Python :: 3
 Development Status :: 4 - Beta
 Environment :: Web Environment
 Framework :: Django
