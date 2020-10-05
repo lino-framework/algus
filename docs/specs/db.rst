@@ -14,7 +14,7 @@ This document describes the database structure.
 .. include:: /../docs/shared/include/tested.rst
 
 >>> import lino
->>> lino.startup('lino_algus.projects.algus.settings.doctests')
+>>> lino.startup('lino_algus.projects.algus1.settings.doctests')
 >>> from lino.api.doctest import *
 
 

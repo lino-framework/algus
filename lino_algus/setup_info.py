@@ -65,10 +65,10 @@ SETUP_INFO.update(packages=[
     'lino_algus.lib.users',
     'lino_algus.lib.users.fixtures',
     'lino_algus.projects',
-    'lino_algus.projects.algus',
-    'lino_algus.projects.algus.tests',
-    'lino_algus.projects.algus.settings',
-    'lino_algus.projects.algus.settings.fixtures',
+    'lino_algus.projects.algus1',
+    'lino_algus.projects.algus1.tests',
+    'lino_algus.projects.algus1.settings',
+    'lino_algus.projects.algus1.settings.fixtures',
 ])
 
 SETUP_INFO.update(message_extractors={

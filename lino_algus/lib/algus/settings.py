@@ -1,23 +1,6 @@
 # -*- coding: UTF-8 -*-
-# Copyright 2016-2017 Rumma & Ko Ltd
+# Copyright 2016-2020 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
-
-"""
-
-.. autosummary::
-   :toctree:
-
-   doctests
-   demo
-   memory
-   fixtures
-
-
-
-"""
-
-from __future__ import print_function
-from __future__ import unicode_literals
 
 from lino.projects.std.settings import *
 
@@ -48,11 +31,3 @@ class Site(Site):
     def setup_quicklinks(self, user, tb):
         super(Site, self).setup_quicklinks(user, tb)
         tb.add_action('lets.Products')
-
-
-# the following line should not be active in a checked-in version
-# DATABASES['default']['NAME'] = ':memory:'
-
-USE_TZ = True
-TIME_ZONE = 'UTC'
-
