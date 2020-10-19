@@ -12,10 +12,10 @@ User roles in Lino Algus
 Menus
 -----
 
-System administrator
---------------------
+Site administrator
+------------------
 
-Rolf is a system administrator, he has a complete menu.
+Rolf is a :term:`site administrator`, he has a complete menu.
 
 >>> ses = rt.login('robin')
 >>> ses.user.user_type
