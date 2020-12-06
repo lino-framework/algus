@@ -27,13 +27,13 @@ class Product(BabelNamed):
     def offered_by(self, ar):
         if ar is None:
             return ''
-        return qs2summary(ar, self.providers.all())
+        return E.p(*qs2summary(ar, self.providers.all()))
 
     @dd.displayfield("Wanted by")
     def wanted_by(self, ar):
         if ar is None:
             return ''
-        return qs2summary(ar, self.customers.all())
+        return E.p(*qs2summary(ar, self.customers.all()))
 
 
 class Offer(dd.Model):
