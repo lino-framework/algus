@@ -17,11 +17,7 @@ Site administrator
 
 Rolf is a :term:`site administrator`, he has a complete menu.
 
->>> ses = rt.login('robin')
->>> ses.user.user_type
-<users.UserTypes.admin:900>
-
->>> ses.show_menu()
+>>> show_menu('robin')
 ... #doctest: +ELLIPSIS +NORMALIZE_WHITESPACE +REPORT_UDIFF
 - Local Exchange : offers, demands
 - Configure :
