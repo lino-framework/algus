@@ -24,4 +24,4 @@ Rolf is a :term:`site administrator`, he has a complete menu.
   - System : Users, Site Parameters
 - Explorer :
   - System : Authorities, User types, User roles
-- Site : About
+- Site : About, User sessions
