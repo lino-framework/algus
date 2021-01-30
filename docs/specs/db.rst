@@ -30,7 +30,7 @@ This document describes the database structure.
  lets.Offer                  lets.Offers                  4         5
  lets.Place                  lets.Places                  4         4
  lets.Product                lets.Products                4         6
- sessions.Session            sessions.SessionTable        3         ...
+ sessions.Session            users.Sessions               3         ...
  system.SiteConfig           system.SiteConfigs           3         0
  tinymce.TextFieldTemplate   tinymce.TextFieldTemplates   5         2
  users.Authority             users.Authorities            3         0
