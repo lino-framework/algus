@@ -39,14 +39,19 @@ Basic use is as follows:
 - In all your files (`.py`, `.rst`, `.html`), replace all occurences
   of "algus" by "example" (and "Algus" by "Example").
 
+- Edit the file ``lino_example/setup_info.py`` (description, author, version,
+  copyright etc).
+
+- Install your application into the Python environment (using develop mode)::
+
+    cd ~/lino/lino_local/example
+    pip install -e .
+
 - To start the demo project, run the following commands::
 
     $ cd lino_example/projects/example1
     $ python manage.py prep
     $ python manage.py runserver
-
-- Edit the file ``lino_example/setup_info.py`` (description, author, version,
-  copyright etc).
 
 - Publish your repository on GitLab.
 
