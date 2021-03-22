@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Copyright 2016-2020 Rumma & Ko Ltd
+# Copyright 2016-2021 Rumma & Ko Ltd
 # License: BSD (see file COPYING for details)
 
 SETUP_INFO = dict(
@@ -9,14 +9,14 @@ SETUP_INFO = dict(
     description=("A template for new Lino applications"),
     author='Luc Saffre',
     author_email='luc@lino-framework.org',
-    url="http://algus.lino-framework.org/",
+    url="https://algus.lino-framework.org/",
     license='BSD-2-Clause',
     test_suite='tests')
 
 SETUP_INFO.update(long_description="""
 
 A repository that you can use as template for writing your own `Lino
-<http://www.lino-framework.org/>`_ application.
+<https://www.lino-framework.org/>`_ application.
 
 Basic use is as follows:
 
@@ -26,8 +26,9 @@ Basic use is as follows:
 - Find a short one-word name for your application, for example "Lino
   Example".
 
-- Download and unzip a snapshot of this repository to a directory
-  named ``~/lino/lino_local/example``.
+- Download a `zip snapshot of this repository
+  <https://github.com/lino-framework/algus/archive/refs/heads/master.zip>`__ and
+  unzip it to a directory named ``~/lino/lino_local/example`.
 
 - In your project directory, rename all files and directories
   containing "algus" in their name to "example"::
