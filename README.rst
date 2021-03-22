@@ -7,7 +7,7 @@ The ``lino-algus`` package
 
 
 A repository that you can use as template for writing your own `Lino
-<http://www.lino-framework.org/>`_ application.
+<https://www.lino-framework.org/>`_ application.
 
 Basic use is as follows:
 
@@ -17,8 +17,9 @@ Basic use is as follows:
 - Find a short one-word name for your application, for example "Lino
   Example".
 
-- Download and unzip a snapshot of this repository to a directory
-  named ``~/lino/lino_local/example``.
+- Download a `zip snapshot of this repository
+  <https://github.com/lino-framework/algus/archive/refs/heads/master.zip>`__ and
+  unzip it to a directory named `~/lino/lino_local/example`.
 
 - In your project directory, rename all files and directories
   containing "algus" in their name to "example"::

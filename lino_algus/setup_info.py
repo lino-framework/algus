@@ -28,7 +28,7 @@ Basic use is as follows:
 
 - Download a `zip snapshot of this repository
   <https://github.com/lino-framework/algus/archive/refs/heads/master.zip>`__ and
-  unzip it to a directory named ``~/lino/lino_local/example`.
+  unzip it to a directory named `~/lino/lino_local/example`.
 
 - In your project directory, rename all files and directories
   containing "algus" in their name to "example"::
