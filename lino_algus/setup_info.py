@@ -54,7 +54,10 @@ Basic use is as follows:
     $ python manage.py prep
     $ python manage.py runserver
 
-- Publish your repository on GitLab.
+- Publish your your project on GitLab: Create a GL account if you haven't
+  already, log in, click "New project", select "Create blank project", give a
+  project name (e.g. "foo"), submit. Then follow the "Command line
+  instructions".
 
 Note: "algus" is the Estonian word for "start". We did not name this
 template "Lino Start" because the word "start" is more likely to occur

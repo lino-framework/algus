@@ -23,7 +23,6 @@ before_script:
   - virtualenv venv
   - source venv/bin/activate
   - pip install atelier
-  - pip install lino_react
   - pip install -e .
   - inv install
 
