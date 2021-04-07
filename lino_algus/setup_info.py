@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # Copyright 2016-2021 Rumma & Ko Ltd
-# License: BSD (see file COPYING for details)
+# License: GNU Affero General Public License v3 (see file COPYING for details)
 
 SETUP_INFO = dict(
     name='lino-algus',
@@ -9,8 +9,8 @@ SETUP_INFO = dict(
     description=("A template for new Lino applications"),
     author='Luc Saffre',
     author_email='luc@lino-framework.org',
-    url="https://algus.lino-framework.org/",
-    license='BSD-2-Clause',
+    url="https://github.com/lino-framework/algus",
+    license_files=['COPYING'],
     test_suite='tests')
 
 SETUP_INFO.update(long_description="""
@@ -84,7 +84,7 @@ Intended Audience :: Developers
 Intended Audience :: System Administrators
 Intended Audience :: Information Technology
 Intended Audience :: Customer Service
-License :: OSI Approved :: BSD License
+License :: OSI Approved :: GNU Affero General Public License v3
 Operating System :: OS Independent
 Topic :: Software Development :: Bug Tracking
 """.format(**SETUP_INFO).strip().splitlines())
