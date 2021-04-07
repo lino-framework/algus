@@ -1,15 +1,8 @@
 # -*- coding: utf-8 -*-
-#
-# This file is execfile()d with the current directory set to its containing dir.
-#
-# The contents of this file are pickled, so don't put values in the namespace
-# that aren't pickleable (module imports are okay, they're removed automatically).
-#
-# All configuration values have a default; values that are commented out
-# serve to show the default.
 
 extensions = []
 extlinks = {}
+intersphinx_mapping = {}
 
 from lino.sphinxcontrib import configure
 configure(globals(), 'lino_algus.projects.algus1.settings.doctests')
@@ -23,18 +16,15 @@ help_texts_builder_targets = {
 
 from django.conf import settings
 
-intersphinx_mapping = {}
 from atelier.sphinxconf import interproject
 interproject.configure(globals(), 'atelier lino_algus')
-intersphinx_mapping['cg'] = ('https://community.lino-framework.org/', None)
-intersphinx_mapping['book'] = ('https://www.lino-framework.org/', None)
 
 # General configuration
 # ---------------------
 
 # General information about the project.
 project = "Lino Algus"
-copyright = '2016-2020 Rumma & Ko Ltd'
+copyright = '2016-2021 Rumma & Ko Ltd'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
