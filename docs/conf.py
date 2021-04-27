@@ -11,4 +11,4 @@ project = "Lino Algus"
 copyright = '2016-2021 Rumma & Ko Ltd'
 
 html_title = "Lino Algus"
-html_context.update(public_url='https://algus.lino-framework.org')
+# html_context.update(public_url='https://algus.lino-framework.org')

@@ -1,15 +1,17 @@
 # -*- coding: UTF-8 -*-
-# Copyright 2016-2020 Rumma & Ko Ltd
+# Copyright 2016-2021 Rumma & Ko Ltd
 # License: GNU Affero General Public License v3 (see file COPYING for details)
 
 from lino.projects.std.settings import *
-
+from lino_algus import SETUP_INFO
 
 class Site(Site):
 
     verbose_name = "Lino Algus"
-    version = '0.0.1'
-    url = "http://algus.lino-framework.org/"
+    description = SETUP_INFO['description']
+    version = SETUP_INFO['version']
+    url = SETUP_INFO['url']
+
     demo_fixtures = ['std', 'demo', 'demo2']
     user_types_module = 'lino_algus.lib.algus.user_types'
     migration_class = 'lino_algus.lib.algus.migrate.Migrator'

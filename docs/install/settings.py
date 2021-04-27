@@ -1,4 +1,4 @@
-from lino_algus.projects.algus.settings import *
+from lino_algus.lib.algus.settings import *
 
 class Site(Site):
     title = "Our Lino Algus site"
