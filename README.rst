@@ -2,8 +2,7 @@
 The ``lino-algus`` package
 ==========================
 
-
-
+Warning: This repository has moved to https://gitlab.com/lino-framework/algus
 
 
 A repository that you can use as template for writing your own `Lino
